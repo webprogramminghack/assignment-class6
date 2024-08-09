@@ -1,0 +1,3 @@
+- Gunakan "nested for loop" untuk membuat pyramid.
+- Jangan gunakan while, gunakan for.
+- Gunakan console.log untuk print hasil ke console.
