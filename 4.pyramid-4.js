@@ -16,7 +16,7 @@ function Pyramid(tingkat) {
     let baris = ''; // membangun baris angka
 
     for (let b = 0; b < a; b++) {
-      baris += (a + b) % 2 === 0 ? '1' : '0'; // menambah angka ke baris, rumus'(a + b)%2 === 0 untuk menentukan apakah kita harus menambah '1' atau'0'
+      baris += (a + b) % 2 === 0 ? '0' : '1'; // menambah angka ke baris, rumus'(a + b)%2 === 0 untuk menentukan apakah kita harus menambah '1' atau'0'
       //(a + b) % 2 menghasilkan 0 jika a+b adalah genap dan 1 jika a+b adalah ganjil.
       // jika a+b genap ,kita tambahkan '1', jika ganjil tambahkan '0'.
     }
